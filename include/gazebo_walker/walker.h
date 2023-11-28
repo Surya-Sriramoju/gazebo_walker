@@ -22,10 +22,10 @@ class Walker : public rclcpp::Node {
 
  private:
   rclcpp::Publisher<geometry_msgs::msg::Twist>::SharedPtr
-      publisher_;  //publisher
+      publisher_;  // publisher
   rclcpp::Subscription<sensor_msgs::msg::LaserScan>::SharedPtr
-      subscriber_;                          //subscriber
-  geometry_msgs::msg::Twist walkerbot_velocity_;  //velocity of bot
+      subscriber_;                          // subscriber
+  geometry_msgs::msg::Twist walkerbot_velocity_;  // velocity of bot
 
   /**
    * @brief The callback funciton for subscribing to laser and publishing
