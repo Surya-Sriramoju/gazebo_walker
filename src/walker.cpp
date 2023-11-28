@@ -1,3 +1,14 @@
+/**
+ * @file walker.cpp
+ * @author Sai Surya Sriramoju (saisurya@umd.edu)
+ * @brief 
+ * @version 0.1
+ * @date 2023-11-27
+ * 
+ * @copyright Copyright (c) 2023
+ * 
+ */
+
 #include <walker.h>
 
 Walker::Walker(const std::string &node_name) : Node(node_name) {
