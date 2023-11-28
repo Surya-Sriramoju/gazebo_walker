@@ -23,7 +23,7 @@ def generate_launch_description():
     )
 
     walker = Node(
-        package = 'simple_walker',
+        package = 'gazebo_walker',
         executable = 'walker',
     )
 
