@@ -14,6 +14,7 @@
 #include <rclcpp/rclcpp.hpp>
 #include <sensor_msgs/msg/laser_scan.hpp>
 #include <string>
+#include <memory>
 
 class Walker : public rclcpp::Node {
  public:
